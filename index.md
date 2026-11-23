@@ -1,41 +1,32 @@
-# My Meditation Timer
+# Privacy policy: My Meditation Timer
 
-A simple meditation timer for iPhone (iOS 17.6 and later), written in SwiftUI.
+Last updated: 23 November 2026
 
-## Features
+## The short version
 
-- Timer with ready presets (1, 3, 5, 10, 15, 20, 60 minutes) or open-ended count-up
-- Breathing guide with adjustable speed and optional voice guidance
-- End sounds: wood block, singing bowl, birds, or vibration
-- Background sounds: ocean, forest and birds, brown noise (started by hand each time)
-- Paste in your own Spotify or Apple Music playlist link
-- Daily streak (Swedish time, a new day starts 00:01) and a star counting all days you have meditated
-- Four colour themes with a birch-bark background
-- Free version plus a one-time in-app purchase for the full version
+My Meditation Timer does not collect, store on a server, sell or share any personal data. There are no accounts, no ads and no analytics or tracking.
 
-## Build
+## What stays on your phone
 
-Open `MY MEDITAITON TIMER.xcodeproj` in Xcode 26 and run on a simulator or device.
-The folder name contains the spelling `MEDITAITON`; that is intentional and must not be "fixed".
+Your choices (timer length, sound, theme, breathing settings), your streak, the number of days you have meditated and the playlist link you paste in are saved only on your device. They are never sent to us or to anyone else. Deleting the app deletes this data.
 
-Run the unit tests with Cmd+U, or from a terminal:
+## Purchases
 
-```bash
-xcodebuild test -project "MY MEDITAITON TIMER.xcodeproj" -scheme "MY MEDITAITON TIMER" \
-  -destination "platform=iOS Simulator,name=iPhone 17" -only-testing:"MY MEDITAITON TIMERTests"
-```
+The optional full version is bought through Apple's App Store. Apple handles the payment and your Apple ID. We never see or receive your payment details.
 
-To try the full version without buying, launch from Xcode with the argument `-forcePremium YES` (debug builds only).
-A local StoreKit test product is in `MY MEDITAITON TIMER.storekit`.
+## Voice guidance and sounds
 
-## In-app purchase
+Voice guidance uses the speech voices built into your iPhone and works on the device. The app does not use the microphone, camera, contacts, photos or your location.
 
-Product ID: `com.marcus.mymeditationtimer.premium` (non-consumable, USD 2.99). It must exist with exactly this ID in App Store Connect.
+## Your own playlist
 
-## Privacy
+If you paste a Spotify or Apple Music link, the app only stores the link on your phone and opens it in the matching app when you tap the button. Those services have their own privacy policies.
 
-See [PRIVACY.md](PRIVACY.md). The app has no network code, no accounts and no analytics.
+## Children
 
-## Sound licences
+The app collects no data from anyone, including children.
 
-See `background_SOURCE.txt` and `nature_loop_SOURCE.txt`.
+## Changes and questions
+
+If this policy changes, the new version will be in the app and on the App Store page. For questions, use the support contact on the App Store page.
+
